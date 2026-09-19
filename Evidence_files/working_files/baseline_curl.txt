@@ -1,0 +1,26 @@
+*   Trying 192.168.126.131:80...
+* Established connection to 192.168.126.131 (192.168.126.131 port 80) from 192.168.126.131 port 35498 
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0* using HTTP/1.x
+> GET /firewall_lab.html HTTP/1.1
+> Host: 192.168.126.131
+> User-Agent: curl/8.21.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 200 OK
+< Date: Fri, 18 Sep 2026 23:52:34 GMT
+< Server: Apache/2.4.68 (Debian)
+< Last-Modified: Fri, 18 Sep 2026 23:31:59 GMT
+< ETag: "74-65bca4e8499ee"
+< Accept-Ranges: bytes
+< Content-Length: 116
+< Vary: Accept-Encoding
+< Content-Type: text/html
+< 
+{ [116 bytes data]
+100    116 100    116   0      0  19375      0                              0100    116 100    116   0      0  18542      0                              0100    116 100    116   0      0  17810      0                              0
+* Connection #0 to host 192.168.126.131:80 left intact
+<!DOCTYPE html>
+<html><body><h1>ICDFA Network Forensics Firewall Lab</h1><p>Server: IDRISS-SERVER</p></body></html>
